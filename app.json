@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "kibes-whoisthekiller-app",
+    "slug": "kibes-whoisthekiller-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "kibes-whoisthekiller-app"
+}
