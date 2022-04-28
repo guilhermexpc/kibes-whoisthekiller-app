@@ -5,7 +5,7 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.primarySoft };
+  background-color: ${({ theme }) => theme.colors.background_secondary };
 `;
 
 export const LogoContainer = styled.View`
@@ -17,7 +17,13 @@ export const LogoContainer = styled.View`
 export const SixtyFourLogo = styled.Image`
   width: 128px;
   height: 128px;    
-`
+`;
+
+export const UserContainer = styled.View`  
+  width: 90%;
+  height: ${RFValue(180)}px;
+  justify-content: space-between;  
+`;
 
 export const Title = styled.Text`
   font-size: ${RFValue(24)}px;

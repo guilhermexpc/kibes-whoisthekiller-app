@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components/native';
 import { useFonts, Poppins_300Light, Poppins_400Regular, Poppins_500Medium, Poppins_700Bold } from '@expo-google-fonts/poppins'
 
 import theme from './src/theme';
-import { Home } from './src/Home';
+import { Home } from './src/pages/Home';
 
 export default function App() {
   const [fonts] = useFonts({
@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={ theme }>
-      <StatusBar style='light' translucent={true} backgroundColor="transparent" />
+      <StatusBar style='dark' translucent={true} backgroundColor="transparent" />
       <Home />
     </ThemeProvider>    
   );
